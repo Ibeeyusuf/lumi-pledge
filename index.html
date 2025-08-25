@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pledge to Lumiterra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="pledge-card" id="pledgeCard">
+            <div class="card-content">
+                <div class="input-section" id="inputSection">
+                    <h1 class="title">Pledge to Lumiterra</h1>
+                    <div class="input-group">
+                        <input type="text" id="username" placeholder="Enter your name" maxlength="50">
+                        <button id="pledgeBtn" class="pledge-button">
+                            Make Your Pledge
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="pledge-section" id="pledgeSection" style="display: none;">
+                    <div class="pledge-text" id="pledgeText">
+                        <!-- Pledge text will be dynamically inserted here -->
+                    </div>
+                    <div class="action-buttons">
+                        <button id="newPledgeBtn" class="new-pledge-button">
+                            Create New Pledge
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Created by 0xIbee ✦ For Lumiterra Fam
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
