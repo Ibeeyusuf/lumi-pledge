@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = usernameInput.value.trim();
         if (username) {
             const pledgeContent = `
-                <p>I <span style="color: #FFD700;">${username}</span> pledge to walk the path of explorers.</p>
+                <p>I <span style="color: #FFD700;font-weight: 650;">${username}</span> pledge to walk the path of explorers.</p>
                 <p>It is my duty to embrace the prophecy, to test the trials,</p>
                 <p>to break illusions, and help forge what will endure.</p>
                 <p>To speak of Lumiterra with courage, not fear,</p>
