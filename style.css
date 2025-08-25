@@ -205,10 +205,6 @@ body {
     color: var(--text-secondary);
 }
 
-.pledge-text p:first-child {
-    color: #FFD700; /* Gold color for username */
-    font-weight: 600;
-}
 
 .pledge-text p:last-child {
     margin-bottom: 0;
