@@ -42,9 +42,10 @@ body {
     max-width: 500px;
     padding: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh; /* Ensure full height for the container */
 }
 
 /* Modern Card Design */
